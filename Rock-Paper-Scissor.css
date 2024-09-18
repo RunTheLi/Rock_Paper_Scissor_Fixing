@@ -1,0 +1,49 @@
+/* Set the background color for the entire page */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+    height: 100vh; /* Make sure the body takes the full height of the viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Center the game container and give it some spacing */
+.game-container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for the buttons */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 2px solid #000; /* Add a border */
+    background-color: #f0f0f0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Change button color on hover */
+button:hover {
+    background-color: rgba(63, 59, 59, 0.47);
+}
+
+/* Style for the score display */
+.scores {
+    margin-top: 20px;
+}
+
+/* Style for the result text */
+.result {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}

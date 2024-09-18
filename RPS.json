@@ -1,0 +1,6 @@
+{
+    "maxScore": 5,
+    "gameMode": "classic",
+    "choices": ["rock", "paper", "scissors"]
+ }
+ 
